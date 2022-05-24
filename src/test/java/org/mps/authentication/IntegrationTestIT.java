@@ -10,60 +10,10 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnit;
 
 import static org.assertj.core.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class IntegrationTestIT {
-
-
-    @DisplayName("[CredentialValidator:validate] if date and password are valid, check if is ")
-    @Test
-    void should_CredentialValidator_checkIfDateAndPassword_areOk() {
-        Date date = Mockito.mock(Date.class);
-        CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
-        PasswordString password = Mockito.mock(PasswordString.class);
-        CredentialValidator credentialValidator = new CredentialValidator(date, password, credentialStore);
-
-        Mockito.when(credentialValidator.validate()).thenReturn(CredentialValidator.ValidationStatus.VALIDATION_OK);
-        Assert.assertEquals(credentialValidator.validate(), CredentialValidator.ValidationStatus.VALIDATION_OK);
-
-        //  Mockito.doReturn(CredentialValidator.ValidationStatus.VALIDATION_OK).when(credentialValidator.validate());
-
-        Mockito.verify(credentialValidator).validate();
-
-
-    }
-
-    @DisplayName("[CredentialValidator:validate] if birthday valid, return birthday invalid")
-    @Test
-    void should_CredentialValidator_returnBirthdayInvalid_ifBirthdayNotCorrect() {
-        Date date = new Date(32, 11, 2002);
-        CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
-        PasswordString password = Mockito.mock(PasswordString.class);
-        CredentialValidator credentialValidator = new CredentialValidator(date, password, credentialStore);
-
-        UserRegistration userRegistration = new UserRegistration();
-        userRegistration.register(date, password, credentialStore, credentialValidator);
-
-        Mockito.verify(credentialStore).register(date, password);
-
-
-    }
-
-    @DisplayName("[CredentialValidator:validate] if birthday valid, return birthday valid")
-    @Test
-    void should_CredentialValidator_returnBirthdayvalid_ifBirthdayCorrect() {
-        Date date = new Date(22, 11, 2002);
-        CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
-        PasswordString password = Mockito.mock(PasswordString.class);
-        CredentialValidator credentialValidator = new CredentialValidator(date, password, credentialStore);
-
-        Mockito.doReturn(CredentialValidator.ValidationStatus.BIRTHDAY_INVALID).when(credentialValidator.validate());
-
-        Mockito.verify(credentialValidator.validate());
-
-
-    }
-
 
     /***
      *
@@ -198,7 +148,7 @@ public class IntegrationTestIT {
 
 
             CredentialValidator credentialValidator = new CredentialValidator(date, password, credentialStore);
-            Mockito.when(credentialStore.credentialExists(date, password)).thenReturn(true);
+            Mockito.when(credentialStore.credentialExists(date, password)).thenReturn(false);
 
 
             UserRegistration userRegistration = new UserRegistration();

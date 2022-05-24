@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa7235d-4bc5-468b-a76a-40629b501e3a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/mps/authentication/IntegrationTestIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mps/authentication/IntegrationTestIT.java" afterDir="false" />
     </list>
@@ -40,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/cristian/Scrivania/prova",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cristian/Scrivania/prova&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.IntegrationTestIT$CredentialStore_Date_PasswordString_Integration.should_CredentialStore_integration_has_to_work_properly_and_validate_hasNot_to_return_VALIDATION_OK_if_UserIsStoredYet">
+}</component>
+  <component name="RunManager" selected="JUnit.IntegrationTestIT">
     <configuration name="IntegrationTestIT$CredentialStore_Date_PasswordString_Integration.should_CredentialStore_integration_has_to_work_properly_and_validate_hasNot_to_return_VALIDATION_OK_if_UserIsStoredYet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="integrationtest" />
       <extension name="coverage">
@@ -62,6 +61,21 @@
       <option name="MAIN_CLASS_NAME" value="org.mps.authentication.IntegrationTestIT$CredentialStore_Date_PasswordString_Integration" />
       <option name="METHOD_NAME" value="should_CredentialStore_integration_has_to_work_properly_and_validate_hasNot_to_return_VALIDATION_OK_if_UserIsStoredYet" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTestIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integrationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.authentication" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.authentication.IntegrationTestIT" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTestIT" />
         <item itemvalue="JUnit.IntegrationTestIT$CredentialStore_Date_PasswordString_Integration.should_CredentialStore_integration_has_to_work_properly_and_validate_hasNot_to_return_VALIDATION_OK_if_UserIsStoredYet" />
         <item itemvalue="JUnit.prova.should_UserRegistration_register_has_statusOK_credentialStore_isCalled" />
         <item itemvalue="JUnit.prova" />
