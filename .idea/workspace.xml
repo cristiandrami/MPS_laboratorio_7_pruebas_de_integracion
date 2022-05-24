@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fa7235d-4bc5-468b-a76a-40629b501e3a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mps/authentication/CredentialValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mps/authentication/CredentialValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mps/authentication/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mps/authentication/UserRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mps/authentication/IntegrationTestIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mps/authentication/IntegrationTestIT.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29bWtD8gKxotnYntEnEiylLahH9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/cristian/Scrivania/prova",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.prova.should_UserRegistration_register_has_statusOK_credentialStore_isCalled">
+    <configuration name="IntegrationTestIT.should_UserRegistration_register_has_statusOK_credentialStore_isCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integrationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.authentication" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.authentication.IntegrationTestIT" />
+      <option name="METHOD_NAME" value="should_UserRegistration_register_has_statusOK_credentialStore_isCalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prova" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integrationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.authentication" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.authentication.prova" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prova.should_UserRegistration_register_has_statusOK_credentialStore_isCalled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integrationtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.authentication" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.authentication.prova" />
+      <option name="METHOD_NAME" value="should_UserRegistration_register_has_statusOK_credentialStore_isCalled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.prova.should_UserRegistration_register_has_statusOK_credentialStore_isCalled" />
+        <item itemvalue="JUnit.prova" />
+        <item itemvalue="JUnit.IntegrationTestIT.should_UserRegistration_register_has_statusOK_credentialStore_isCalled" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fa7235d-4bc5-468b-a76a-40629b501e3a" name="Changes" comment="" />
+      <created>1653382482714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653382482714</updated>
+    </task>
+    <servers />
+  </component>
+</project>
