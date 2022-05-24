@@ -49,9 +49,9 @@ public class IntegrationTestIT {
 
     }
 
-    @DisplayName("[CredentialValidator:validate] if birthday valid, return birthday invalid")
+    @DisplayName("[CredentialValidator:validate] if birthday valid, return birthday valid")
     @Test
-    void should_CredentialValidator_returnBirthdayvalid_ifBirthdayNotCorrect() {
+    void should_CredentialValidator_returnBirthdayvalid_ifBirthdayCorrect() {
         Date date = new Date(22, 11, 2002);
         CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
         PasswordString password = Mockito.mock(PasswordString.class);
@@ -294,7 +294,7 @@ public class IntegrationTestIT {
             assertThat(obtainedUsersList).isEqualTo(expectedUsersList);
         }
 
-        @DisplayName("[UserRegistration:register] CredentialStore Integration, validate returns VALIDATION_OK if all is correct and the user is stored")
+        @DisplayName("[UserRegistration:register] CredentialStore Integration, validate don´t returns VALIDATION_OK if all is correct and the user is stored")
         @Test
         void should_CredentialStore_integration_has_to_work_properly_and_validate_hasNot_to_return_VALIDATION_OK_if_UserIsStoredYet() {
             CredentialStore credentialStore = new CredentialStoreSet();
