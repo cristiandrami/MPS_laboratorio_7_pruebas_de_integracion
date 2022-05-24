@@ -1,6 +1,7 @@
 package org.mps.authentication;
 
 import org.assertj.core.api.Assert;
+import org.assertj.core.api.Assert.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -50,7 +51,7 @@ public class IntegrationTestIT {
 
     @DisplayName("[CredentialValidator:validate] if birthday valid, return birthday invalid")
     @Test
-    void should_CredentialValidator_returnBirthdayInvalid_ifBirthdayNotCorrect() {
+    void should_CredentialValidator_returnBirthdayvalid_ifBirthdayNotCorrect() {
         Date date = new Date(22, 11, 2002);
         CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
         PasswordString password = Mockito.mock(PasswordString.class);
