@@ -166,8 +166,6 @@ public class IntegrationTestIT {
         void should_UserRegistration_registerWithAlreadyExistingUser_hasNotToCall_registerMethodOfCredentialStore() {
             CredentialStore credentialStore = Mockito.mock(CredentialStore.class);
 
-
-            //Mockito.when(credentialStore.register(Mockito.any(), Mockito.any()));
             Date date = Mockito.mock(Date.class);
             PasswordString password = Mockito.mock(PasswordString.class);
 
